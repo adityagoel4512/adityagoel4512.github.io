@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<h1>TIL</h1>
+<h3>Week ending 11 August 2024</h3>
+Interaction nets are a model of computation that uses rewrite rules described <a href="https://wiki.xxiivv.com/site/interaction_nets.html">here</a>.
+
+<ul>
+    <li> It is term-based and pure. Simply rewrite terms until you reach a normal form (like lambda calculus).</li>
+    <li> Reductions are local and can be done in parallel. </li>
+    <li> It is strongly confluent and so the order of reduction does not matter. </li>
+</ul>
+All of this is cool. Implementing a interaction net evaluator would scale automatically across cores and machines.
+People have done some impressive engineering to make this happen <a href="https://gist.github.com/VictorTaelin/77fd5a2a8a4a07e1da6157ebca3c7cf1">in practice</a>.
+</br></br>
+
+<a href="../index.html">Back</a>
+</body>
+</html>
